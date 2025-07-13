@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.malla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.semestre {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  width: 280px;
+}
+
+.semestre h2 {
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.ramo {
+  background-color: #d1e7dd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.ramo:hover {
+  background-color: #bcd0c7;
+}
+
+#info-box {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  min-height: 1.5em;
+}
